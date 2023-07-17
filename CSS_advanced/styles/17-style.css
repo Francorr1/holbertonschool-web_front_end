@@ -22,13 +22,13 @@
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: var(--color-black)
+    --section-title-color: var(--color-black);
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --footer-padding: 5rem 0 1rem
+    --footer-padding: 5rem 0 1rem;
 }
 *, *:before, *:after {
     box-sizing: border-box;
@@ -70,7 +70,7 @@ a:active {
 .section {
     padding: var(--section-padding);
 }
-.section-header{
+.section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
